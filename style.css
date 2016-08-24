@@ -1,0 +1,43 @@
+#map {
+		width: 100vw;
+		height: 100vh;
+	}
+	.marker-cluster-small div{
+    height: 30px;
+    width: 30px;
+		border-radius: 50%;
+    margin-left: 1px;
+    margin-top: -1px;
+	}
+
+  .marker-cluster-small span {
+    line-height: 30px;
+  }
+
+  .marker-cluster-medium div{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 1px;
+    margin-top: -1px;
+  }
+
+  .marker-cluster-medium span {
+    line-height: 60px;
+  }
+
+  .marker-cluster-large div{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-left: 1px;
+    margin-top: -1px;
+  }
+
+  .marker-cluster-large span {
+    line-height: 90px;
+  }
+
+  .marker-cluster {
+    border-radius: 50%;
+  }

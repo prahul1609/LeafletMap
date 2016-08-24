@@ -1,28 +1,17 @@
 <!DOCTYPE html>
 <html>
-<style type="text/css">
-	#map {
-		width: 100vw;
-		height: 100vh;
-	}
-	.marker-cluster {
-		fill-opacity: .5;
-  		stroke: #fff;
-  		stroke-width: .5px;
-  		border-radius: 50%;
-	}
-</style>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="node_modules/leaflet/dist/leaflet.css">	
-	<link rel="stylesheet" type="text/css" href="node_modules/leaflet.markercluster/dist/MarkerCluster.css">
-	<link rel="stylesheet" type="text/css" href="node_modules/leaflet.markercluster/dist/MarkerCluster.Default.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/leaflet/dist/leaflet.css">	
+	<link rel="stylesheet" type="text/css" href="bower_components/leaflet.markercluster/dist/MarkerCluster.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/leaflet.markercluster/dist/MarkerCluster.Default.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div id="map"></div>
-	<script src="node_modules/leaflet/dist/leaflet.js"></script>
-    <script src="node_modules/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
-    <script src="lib/leaflet-heat.js"></script>
+	<script src="bower_components/leaflet/dist/leaflet.js"></script>
+    <script src="bower_components/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+    <script src="bower_components/Leaflet.heat/dist/leaflet-heat.js"></script>
 
     <script src="addresspoints.js"></script>
     <script src="app.js"></script>
