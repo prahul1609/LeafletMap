@@ -1,0 +1,16 @@
+{
+  "name": "leafletmaps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rahul pandey",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.0.0-rc.3",
+    //"leaflet.heat": "^0.1.1", //some issue with minification use instead custom lib
+    "leaflet.markercluster": "^1.0.0-rc.1.0"
+  }
+}
