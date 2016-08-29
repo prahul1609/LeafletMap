@@ -41,3 +41,12 @@
   .marker-cluster {
     border-radius: 50%;
   }
+
+  .popup_custom {
+    height: 300px;
+    width: 100px;
+  }
+
+  .water {
+    color: red;
+  }
